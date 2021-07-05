@@ -18,4 +18,23 @@ public final class FacturaETriPhasePreProcessor extends XAdESTriPhasePreProcesso
 		super(true);
 	}
 
+	/*@Override
+	public TriphaseData preProcessPreCoSign(final byte[] data,
+			                          final String algorithm,
+			                          final X509Certificate[] cert,
+			                          final Properties extraParams,
+			                          final boolean checkSignatures) throws IOException, AOException {
+		throw new UnsupportedOperationException("No se permiten multifirmas para formatos de tipo FacturaE"); //$NON-NLS-1$
+	}
+
+	@Override
+	public TriphaseData preProcessPreCounterSign(final byte[] sign,
+			                               final String algorithm,
+			                               final X509Certificate[] cert,
+			                               final Properties extraParams,
+			                               final CounterSignTarget targets,
+				                           final boolean checkSignatures) throws IOException,
+			                                                                       AOException {
+		throw new UnsupportedOperationException("No se permiten multifirmas para formatos de tipo FacturaE"); //$NON-NLS-1$
+	}*/
 }
